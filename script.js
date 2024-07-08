@@ -35,7 +35,7 @@ function generatePassword(smallLetter,CapitalLetter,SpecialSymbols,Numbers,passw
     chars +=Numbers? "0123456789":"";
 
     if(passwordLength===0){
-        password.textContent="password length should be bigger than 1";
+        password.textContent="password length should be bigger than 0";
 
     }
     else if(!(smallLetter||CapitalLetter||SpecialSymbols||Numbers))
